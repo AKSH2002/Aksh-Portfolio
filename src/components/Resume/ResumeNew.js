@@ -9,7 +9,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://github.com/AKSH2002";
+   "https://github.com/AKSH2002/Aksh-Portfolio/blob/master/src/Assets/Aksh.pdf";
+   
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
