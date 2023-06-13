@@ -28,9 +28,9 @@ function Home2() {
               </i> */}
               <br />
               <br />
-              My field of Interest's are in&nbsp;
+              As a software engineering student with a keen interest in &nbsp;
               <i>
-                <b className="purple">Ethical Hacking, Cyber Security, Computer Networks, Web Development </b> and
+                <b className="purple">DevOps, Cyber Security, Software Development, Computer Networks, Cloud, Ethical Hacking, Web Development </b> and
                 also in areas related to{" "}
                 <b className="purple">
                 Artificial intelligence and Machine Learning.
@@ -38,12 +38,18 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion to Open Source Contributions
-              in <b className="purple">Github</b> and
+              With experience in languages like <b className="purple">Java, Python, JavaScript, React.js, and C</b> I enjoy tackling technical challenges and creating innovative solutions. I am also passionate about utilizing tools like 
               <i>
                 <b className="purple">
                   {" "}
-                  Also Work in field of Web Development with Modern Javascript Library and Frameworks
+                  Docker, Kubernetes, and Jenkins
+                </b>
+              </i>
+              &nbsp; to enhance development processes and enhance software delivery. Also Work in field of
+              <i>
+                <b className="purple">
+                  {" "}
+                   Web Development with Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like

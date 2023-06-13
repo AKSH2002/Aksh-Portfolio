@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://github.com/AKSH2002"
+                href="https://aksh2002.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
