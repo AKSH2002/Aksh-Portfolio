@@ -24,6 +24,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        <h1 style={{ justifyContent: "center", position: "relative", paddingBottom: "10px" }}>My Resume</h1>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -54,8 +55,8 @@ function ResumeNew() {
           </Button>
         </Row> */}
 
-        <CertificateNew/>
       </Container>
+        <CertificateNew/>
     </div>
   );
 }
