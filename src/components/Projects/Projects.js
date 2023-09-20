@@ -22,6 +22,16 @@ function Projects() {
             <ProjectCard
               imgPath={DoNation}
               isBlog={false}
+              title="Image Upload"
+              description="Developed an automated CI/CD pipeline for an ImageUpload project using Node.js. Containerized the application with Docker for consistent deployment. Orchestrated Jenkins for building, testing, and auto-deploying Docker images"
+              ghLink="https://github.com/AKSH2002/DoNation-DE-Project"
+              demoLink="https://aksh2002.github.io/DoNation-DE-Project/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DoNation}
+              isBlog={false}
               title="Online Blood Donation System (DoNation)"
               description="Website proposes a Web 3.0 site (React Js) which will connect all blood banks with people as well as with hospitals. This proposed system Notify the user for emergency requirement of blood and blood camps using Firebase type cloud database, distributed ledger (blockchain) to securely manage the data, provide a good system interface to easily track locations needed & immediate request/response feature to meet medical requirements in emergency."
               ghLink="https://github.com/AKSH2002/DoNation-DE-Project"
