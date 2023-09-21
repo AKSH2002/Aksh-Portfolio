@@ -26,7 +26,7 @@ function Projects() {
               title="Image Upload"
               description="I created a fundamental CI/CD pipeline using Jenkins, Git, and Docker, demonstrating my proficiency in automating software deployment. The pipeline starts with Git code commits, proceeds with Jenkins-driven continuous integration, and concludes with Dockerized builds, extensive testing, and effortless deployments. This project highlights my expertise in establishing robust development workflows and provides a solid foundation for future, more intricate CI/CD setups."
               ghLink="https://github.com/AKSH2002/ImageUpload"
-              demoLink="https://aksh2002.github.io/DoNation-DE-Project/"
+              demoLink="https://github.com/AKSH2002/Aksh-Portfolio/blob/master/src/Assets/Projects/UploadImages.png?raw=true"
             />
           </Col>
           <Col md={4} className="project-card">
