@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Aksh.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import finance from "../../Assets/../Assets/Certificates/Finance_for_Startup.pdf"
+import finance from "../../Assets/../Assets/Certificates/Coursera/Finance_for_Startup.pdf"
 
 function CertificateNew() {
   

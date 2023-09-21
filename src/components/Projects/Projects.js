@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ServiceProvider from "../../Assets/Projects/service.png";
 import DoNation from "../../Assets/Projects/blood.png";
 import SafetyApp from "../../Assets/Projects/app.png";
+import UploadImage from "../../Assets/Projects/UploadImages.png"
 
 function Projects() {
   return (
@@ -20,11 +21,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DoNation}
+              imgPath={UploadImage}
               isBlog={false}
               title="Image Upload"
-              description="Developed an automated CI/CD pipeline for an ImageUpload project using Node.js. Containerized the application with Docker for consistent deployment. Orchestrated Jenkins for building, testing, and auto-deploying Docker images"
-              ghLink="https://github.com/AKSH2002/DoNation-DE-Project"
+              description="I created a fundamental CI/CD pipeline using Jenkins, Git, and Docker, demonstrating my proficiency in automating software deployment. The pipeline starts with Git code commits, proceeds with Jenkins-driven continuous integration, and concludes with Dockerized builds, extensive testing, and effortless deployments. This project highlights my expertise in establishing robust development workflows and provides a solid foundation for future, more intricate CI/CD setups."
+              ghLink="https://github.com/AKSH2002/ImageUpload"
               demoLink="https://aksh2002.github.io/DoNation-DE-Project/"
             />
           </Col>
