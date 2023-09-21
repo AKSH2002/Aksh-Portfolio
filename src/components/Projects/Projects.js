@@ -36,7 +36,7 @@ function Projects() {
               title="Online Blood Donation System (DoNation)"
               description="Website proposes a Web 3.0 site (React Js) which will connect all blood banks with people as well as with hospitals. This proposed system Notify the user for emergency requirement of blood and blood camps using Firebase type cloud database, distributed ledger (blockchain) to securely manage the data, provide a good system interface to easily track locations needed & immediate request/response feature to meet medical requirements in emergency."
               ghLink="https://github.com/AKSH2002/DoNation-DE-Project"
-              demoLink="https://aksh2002.github.io/DoNation-DE-Project/"
+              demoLink="https://github.com/AKSH2002/Aksh-Portfolio/blob/master/src/Assets/Projects/blood.png?raw=true"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
 
               This App is designed specifically for woman and child. These apps can provide peace of mind, immediate communication, and access to help in an emergency"
               ghLink="https://github.com/AKSH2002/RAKSHA-Women-Safety-App"
-              demoLink="https://github.com/AKSH2002/RAKSHA-Women-Safety-App/blob/master/Home%20Screen.png?raw=true"
+              demoLink="https://github.com/AKSH2002/Aksh-Portfolio/blob/master/src/Assets/Projects/app.png?raw=true"
             />
           </Col>
 
