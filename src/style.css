@@ -642,7 +642,7 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 70px !important;
+  padding-top: 105px !important;
   /* padding-bottom: 10px !important; */
   background-image: var(--section-background-color) !important;
   color: white !important;
