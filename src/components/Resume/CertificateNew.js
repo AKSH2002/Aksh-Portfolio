@@ -41,6 +41,8 @@ import IOT from "../../Assets/../Assets/Certificates/BootCamp/IOT.pdf"
 import QuizonCOVID19Awareness from "../../Assets/../Assets/Certificates/BootCamp/Quiz on COVID-19 Awareness.pdf"
 import WordPress from "../../Assets/../Assets/Certificates/BootCamp/WordPress.pdf"
 
+import DevOpsFundamentals from "../../Assets/../Assets/Certificates/Udemy/DevOps Fundamentals.pdf"
+
 
 
 
@@ -443,12 +445,12 @@ function CertificateNew() {
           <Col md={2} style={{ justifyContent: "center", position: "relative", paddingBottom: "40px" }}>
             <Button
               variant="primary"
-              href={finance}
+              href={DevOpsFundamentals}
               target="_blank"
               style={{ maxWidth: "250px" }}
             >
               <AiOutlineDownload />
-              &nbsp;Devops Fundamentals
+              &nbsp;DevOps Fundamentals
             </Button>
           </Col>
         </Row>
