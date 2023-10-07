@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { CgDesktop } from "react-icons/cg";
 
 function InternshipsCard(props) {
   return (
@@ -14,8 +14,8 @@ function InternshipsCard(props) {
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <CgDesktop /> &nbsp;
+          {props.isBlog ? "Blog" : "Journey"}
         </Button>
         {"\n"}
         {"\n"}
@@ -30,7 +30,7 @@ function InternshipsCard(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {"Certificate"}
           </Button>
         )}
       </Card.Body>
