@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aksh-Portfolio/static/css/main.255520f4.css",
-    "main.js": "/Aksh-Portfolio/static/js/main.55746b38.js",
+    "main.js": "/Aksh-Portfolio/static/js/main.90713b36.js",
     "static/js/415.4d6acbeb.chunk.js": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aksh.png": "/Aksh-Portfolio/static/media/aksh.1e4746c7965aca29a796.png",
@@ -18,6 +18,7 @@
     "static/media/Tata.pdf": "/Aksh-Portfolio/static/media/Tata.917e9b6e45d5b1fbbf98.pdf",
     "static/media/Fortinet Infomation Security Awareness.pdf": "/Aksh-Portfolio/static/media/Fortinet Infomation Security Awareness.831487cf9e7e48a19757.pdf",
     "static/media/bharatintern-logo.png": "/Aksh-Portfolio/static/media/bharatintern-logo.60e190b984efa3e12a83.png",
+    "static/media/DevOps Fundamentals.pdf": "/Aksh-Portfolio/static/media/DevOps Fundamentals.59dbff177f5be79ae455.pdf",
     "static/media/Cloud Computing.pdf": "/Aksh-Portfolio/static/media/Cloud Computing.b248bed8b53f08cbbfbf.pdf",
     "static/media/IOT.pdf": "/Aksh-Portfolio/static/media/IOT.4b66c4a904817045f57e.pdf",
     "static/media/WordPress.pdf": "/Aksh-Portfolio/static/media/WordPress.b9a1dd19dbf260b3394d.pdf",
@@ -52,12 +53,12 @@
     "static/media/pre.svg": "/Aksh-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Aksh-Portfolio/index.html",
     "main.255520f4.css.map": "/Aksh-Portfolio/static/css/main.255520f4.css.map",
-    "main.55746b38.js.map": "/Aksh-Portfolio/static/js/main.55746b38.js.map",
+    "main.90713b36.js.map": "/Aksh-Portfolio/static/js/main.90713b36.js.map",
     "415.4d6acbeb.chunk.js.map": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.255520f4.css",
-    "static/js/main.55746b38.js"
+    "static/js/main.90713b36.js"
   ]
 }
