@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Aksh-Portfolio/static/css/main.255520f4.css",
+    "main.css": "/Aksh-Portfolio/static/css/main.6f14dc0f.css",
     "main.js": "/Aksh-Portfolio/static/js/main.90713b36.js",
     "static/js/415.4d6acbeb.chunk.js": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js",
@@ -52,13 +52,13 @@
     "static/media/ibm-logo.png": "/Aksh-Portfolio/static/media/ibm-logo.b6d5f09506abe667e7e2.png",
     "static/media/pre.svg": "/Aksh-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Aksh-Portfolio/index.html",
-    "main.255520f4.css.map": "/Aksh-Portfolio/static/css/main.255520f4.css.map",
+    "main.6f14dc0f.css.map": "/Aksh-Portfolio/static/css/main.6f14dc0f.css.map",
     "main.90713b36.js.map": "/Aksh-Portfolio/static/js/main.90713b36.js.map",
     "415.4d6acbeb.chunk.js.map": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.255520f4.css",
+    "static/css/main.6f14dc0f.css",
     "static/js/main.90713b36.js"
   ]
 }
