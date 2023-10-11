@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aksh-Portfolio/static/css/main.6f14dc0f.css",
-    "main.js": "/Aksh-Portfolio/static/js/main.90713b36.js",
+    "main.js": "/Aksh-Portfolio/static/js/main.cbe4baef.js",
     "static/js/415.4d6acbeb.chunk.js": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aksh.png": "/Aksh-Portfolio/static/media/aksh.1e4746c7965aca29a796.png",
@@ -29,8 +29,8 @@
     "static/media/ReactJS_Tutorial.jpg": "/Aksh-Portfolio/static/media/ReactJS_Tutorial.3739ce87e5817b941ae6.jpg",
     "static/media/Git.jpg": "/Aksh-Portfolio/static/media/Git.52cdfc7535956f02313f.jpg",
     "static/media/Completion_letter.jpg": "/Aksh-Portfolio/static/media/Completion_letter.cd1c6ec3aeb0dd2c43df.jpg",
+    "static/media/Aksh.pdf": "/Aksh-Portfolio/static/media/Aksh.a84724f73e63e6712559.pdf",
     "static/media/UploadImages.png": "/Aksh-Portfolio/static/media/UploadImages.ab4bcd26130e5d27f956.png",
-    "static/media/Aksh.pdf": "/Aksh-Portfolio/static/media/Aksh.c9306695859ea35d5696.pdf",
     "static/media/Sem_6.pdf": "/Aksh-Portfolio/static/media/Sem_6.ae808add2ede89a6ecd8.pdf",
     "static/media/Sem_4.pdf": "/Aksh-Portfolio/static/media/Sem_4.a2363df254f5799f3331.pdf",
     "static/media/Sem_5.pdf": "/Aksh-Portfolio/static/media/Sem_5.1224ba0c688053a74bf4.pdf",
@@ -53,12 +53,12 @@
     "static/media/pre.svg": "/Aksh-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Aksh-Portfolio/index.html",
     "main.6f14dc0f.css.map": "/Aksh-Portfolio/static/css/main.6f14dc0f.css.map",
-    "main.90713b36.js.map": "/Aksh-Portfolio/static/js/main.90713b36.js.map",
+    "main.cbe4baef.js.map": "/Aksh-Portfolio/static/js/main.cbe4baef.js.map",
     "415.4d6acbeb.chunk.js.map": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f14dc0f.css",
-    "static/js/main.90713b36.js"
+    "static/js/main.cbe4baef.js"
   ]
 }
