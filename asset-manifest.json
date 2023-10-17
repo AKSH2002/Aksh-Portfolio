@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aksh-Portfolio/static/css/main.6f14dc0f.css",
-    "main.js": "/Aksh-Portfolio/static/js/main.cbe4baef.js",
+    "main.js": "/Aksh-Portfolio/static/js/main.cebd88cd.js",
     "static/js/415.4d6acbeb.chunk.js": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aksh.png": "/Aksh-Portfolio/static/media/aksh.1e4746c7965aca29a796.png",
@@ -53,12 +53,12 @@
     "static/media/pre.svg": "/Aksh-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Aksh-Portfolio/index.html",
     "main.6f14dc0f.css.map": "/Aksh-Portfolio/static/css/main.6f14dc0f.css.map",
-    "main.cbe4baef.js.map": "/Aksh-Portfolio/static/js/main.cbe4baef.js.map",
+    "main.cebd88cd.js.map": "/Aksh-Portfolio/static/js/main.cebd88cd.js.map",
     "415.4d6acbeb.chunk.js.map": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f14dc0f.css",
-    "static/js/main.cbe4baef.js"
+    "static/js/main.cebd88cd.js"
   ]
 }
