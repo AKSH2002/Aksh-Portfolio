@@ -43,6 +43,8 @@ import WordPress from "../../Assets/../Assets/Certificates/BootCamp/WordPress.pd
 
 import DevOpsFundamentals from "../../Assets/../Assets/Certificates/Udemy/DevOps Fundamentals.pdf"
 
+import PLSD from "../../Assets/../Assets/Certificates/PLSD/PLSD_Certificate.pdf"
+
 
 
 
@@ -451,6 +453,26 @@ function CertificateNew() {
             >
               <AiOutlineDownload />
               &nbsp;DevOps Fundamentals
+            </Button>
+          </Col>
+        </Row>
+
+        {/* -------------------------------- */}
+        {/* --------------PLSD-------------- */}
+        {/* -------------------------------- */}
+        <h3 style={{ justifyContent: "center", position: "relative", paddingBottom: "10px" }}>PLSD</h3>
+        <Particle />
+        <Row style={{ justifyContent: "center", position: "relative", paddingBottom: "40px" }}>
+
+          <Col md={2} style={{ justifyContent: "center", position: "relative", paddingBottom: "40px" }}>
+            <Button
+              variant="primary"
+              href={PLSD}
+              target="_blank"
+              style={{ maxWidth: "250px" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Professional and Life Skills Development
             </Button>
           </Col>
         </Row>
