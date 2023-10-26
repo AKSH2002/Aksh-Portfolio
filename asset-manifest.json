@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aksh-Portfolio/static/css/main.6f14dc0f.css",
-    "main.js": "/Aksh-Portfolio/static/js/main.cebd88cd.js",
+    "main.js": "/Aksh-Portfolio/static/js/main.4ed026ce.js",
     "static/js/415.4d6acbeb.chunk.js": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aksh.png": "/Aksh-Portfolio/static/media/aksh.1e4746c7965aca29a796.png",
@@ -17,6 +17,7 @@
     "static/media/Android Fundamentals with Capstone Project.pdf": "/Aksh-Portfolio/static/media/Android Fundamentals with Capstone Project.d8f452d12caa671ba509.pdf",
     "static/media/Tata.pdf": "/Aksh-Portfolio/static/media/Tata.917e9b6e45d5b1fbbf98.pdf",
     "static/media/Fortinet Infomation Security Awareness.pdf": "/Aksh-Portfolio/static/media/Fortinet Infomation Security Awareness.831487cf9e7e48a19757.pdf",
+    "static/media/PLSD_Certificate.pdf": "/Aksh-Portfolio/static/media/PLSD_Certificate.5c101ff3157b0d72a828.pdf",
     "static/media/bharatintern-logo.png": "/Aksh-Portfolio/static/media/bharatintern-logo.60e190b984efa3e12a83.png",
     "static/media/DevOps Fundamentals.pdf": "/Aksh-Portfolio/static/media/DevOps Fundamentals.59dbff177f5be79ae455.pdf",
     "static/media/Cloud Computing.pdf": "/Aksh-Portfolio/static/media/Cloud Computing.b248bed8b53f08cbbfbf.pdf",
@@ -53,12 +54,12 @@
     "static/media/pre.svg": "/Aksh-Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Aksh-Portfolio/index.html",
     "main.6f14dc0f.css.map": "/Aksh-Portfolio/static/css/main.6f14dc0f.css.map",
-    "main.cebd88cd.js.map": "/Aksh-Portfolio/static/js/main.cebd88cd.js.map",
+    "main.4ed026ce.js.map": "/Aksh-Portfolio/static/js/main.4ed026ce.js.map",
     "415.4d6acbeb.chunk.js.map": "/Aksh-Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Aksh-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f14dc0f.css",
-    "static/js/main.cebd88cd.js"
+    "static/js/main.4ed026ce.js"
   ]
 }
