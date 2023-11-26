@@ -30,6 +30,7 @@ import Sem3 from "../../Assets/../Assets/Certificates/Design_Engineering/Sem_3.p
 import Sem4 from "../../Assets/../Assets/Certificates/Design_Engineering/Sem_4.pdf"
 import Sem5 from "../../Assets/../Assets/Certificates/Design_Engineering/Sem_5.pdf"
 import Sem6 from "../../Assets/../Assets/Certificates/Design_Engineering/Sem_6.pdf"
+import Sem7 from "../../Assets/../Assets/Certificates/Design_Engineering/Sem_7.pdf"
 
 import Tata from "../../Assets/../Assets/Certificates/Unstop/Tata.pdf"
 
@@ -351,6 +352,18 @@ function CertificateNew() {
             >
               <AiOutlineDownload />
               &nbsp;Sem 6 Design Engineering
+            </Button>
+          </Col>
+
+          <Col md={2} style={{ justifyContent: "center", position: "relative", paddingBottom: "40px" }}>
+            <Button
+              variant="primary"
+              href={Sem7}
+              target="_blank"
+              style={{ maxWidth: "250px" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Sem 7 GTU Internship Certificate
             </Button>
           </Col>
 
