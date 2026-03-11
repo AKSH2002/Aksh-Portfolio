@@ -19,43 +19,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I'm a <span className="purple">DevOps Engineer</span>, building cloud infrastructure and automation so teams can deploy reliably and scale.
               <br />
-              {/* <br />I am fluent in classics like
+              <br />
+              I work with{" "}
               <i>
-                <b className="purple"> React js, Computer Networks, Javascript and Python. </b>
-              </i> */}
-              <br />
-              <br />
-              As a software engineering student with a keen interest in &nbsp;
-              <i>
-                <b className="purple">DevOps, Cyber Security, Software Development, Computer Networks, Cloud, Ethical Hacking, Web Development </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                Artificial intelligence and Machine Learning.
-                </b>
+                <b className="purple">Terraform, OpenTofu, Ansible, Kubernetes, and AWS</b>
               </i>
+              —IaC, multi-environment deployments, monitoring, and security (IAM rotation, PKI, TLS). I focus on reliability, observability, and automation that reduces toil.
               <br />
               <br />
-              With experience in languages like <b className="purple">Java, Python, JavaScript, React.js, and C</b> I enjoy tackling technical challenges and creating innovative solutions. I am also passionate about utilizing tools like 
-              <i>
-                <b className="purple">
-                  {" "}
-                  Docker, Kubernetes, and Jenkins
-                </b>
-              </i>
-              &nbsp; to enhance development processes and enhance software delivery. Also Work in field of
-              <i>
-                <b className="purple">
-                  {" "}
-                   Web Development with Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Node.js</b>
-              </i>
+              My background is in development (Spring Boot, APIs, CI/CD) and I moved into full-time DevOps and platform engineering. I'm passionate about{" "}
+              <b className="purple">Docker, Kubernetes, Jenkins, GitLab CI</b>, and modern tooling. I also enjoy{" "}
+              <b className="purple">React.js and Node.js</b> when building or tweaking UIs and services.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -73,7 +49,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/aksh2002"
+                  href="https://github.com/AKSH2002"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

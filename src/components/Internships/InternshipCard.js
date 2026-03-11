@@ -1,13 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { CgDesktop } from "react-icons/cg";
+import { HiOutlineOfficeBuilding } from "react-icons/hi";
 
-function InternshipsCard(props) {
+function InternshipCard(props) {
+  const [imgError, setImgError] = useState(false);
+  const imgSrc = imgError ? null : props.imgPath;
+
   return (
     <Card className="internship-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <div className="internship-card-img-wrapper">
+        {imgSrc ? (
+          <Card.Img
+            variant="top"
+            src={imgSrc}
+            alt={props.title}
+            onError={() => setImgError(true)}
+          />
+        ) : (
+          <div className="internship-card-img-fallback">
+            <HiOutlineOfficeBuilding size={48} />
+          </div>
+        )}
+      </div>
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
@@ -37,4 +54,4 @@ function InternshipsCard(props) {
     </Card>
   );
 }
-export default InternshipsCard;
+export default InternshipCard;

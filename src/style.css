@@ -14,6 +14,22 @@ html {
   --imp-text-color: #c770f0;
 }
 
+/* Optional: fade-in animation for sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-section {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -463,9 +479,15 @@ button:focus {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
+  opacity: 0.95 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  border-radius: 8px !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.25) !important;
+}
+.project-card-view:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 16px 4px rgba(129, 72, 144, 0.5) !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -559,9 +581,30 @@ button:focus {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
-  opacity: 0.9 !important;
+  opacity: 0.95 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+}
+.internship-card-view .card-img-top {
+  min-height: 140px !important;
+  max-height: 160px !important;
+  object-fit: contain !important;
+  background: rgba(30, 20, 50, 0.5) !important;
+  padding: 20px !important;
+}
+
+.internship-card-img-wrapper {
+  min-height: 140px;
+  background: rgba(30, 20, 50, 0.5);
+}
+
+.internship-card-img-fallback {
+  min-height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(200, 137, 230, 0.15);
+  color: var(--imp-text-color);
 }
 .internship-card-view:hover {
   transform: scale(1.02) !important;
@@ -577,6 +620,113 @@ button:focus {
 }
 
 /* --------- */
+/* Experience */
+/* --------- */
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.experience-card-col {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.experience-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.95 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.3) !important;
+  border-radius: 8px !important;
+  text-align: left !important;
+}
+
+.experience-card-view .card-body {
+  padding: 12px 14px !important;
+}
+
+.experience-card-view:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 6px 12px 4px rgba(129, 72, 144, 0.561) !important;
+}
+
+.experience-card-header {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 6px !important;
+  margin-bottom: 8px !important;
+}
+
+.experience-card-logo {
+  width: 83px !important;
+  height: 83px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+  border-radius: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.experience-card-logo-placeholder {
+  width: 83px !important;
+  height: 83px !important;
+  flex-shrink: 0 !important;
+  border-radius: 8px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: rgba(200, 137, 230, 0.2) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 2.25em !important;
+  color: var(--imp-text-color) !important;
+}
+
+.experience-card-meta {
+  flex: 1 !important;
+  min-width: 0 !important;
+  text-align: left !important;
+}
+
+.experience-card-title {
+  color: white !important;
+  font-size: 1.15em !important;
+  margin-bottom: 2px !important;
+}
+
+.experience-card-company {
+  margin-bottom: 2px !important;
+}
+
+.experience-card-company a {
+  color: var(--imp-text-color) !important;
+  text-decoration: none !important;
+}
+
+.experience-card-company a:hover {
+  text-decoration: underline !important;
+}
+
+.experience-card-dates {
+  font-size: 0.85em !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.experience-card-description {
+  font-size: 0.95em !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  margin-bottom: 10px !important;
+  margin-top: 0 !important;
+}
+
+/* --------- */
 /* About */
 /* --------- */
 
@@ -586,6 +736,37 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+}
+
+.what-i-do-strip {
+  text-align: center;
+  padding: 30px 0 40px;
+}
+
+.what-i-do-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1.7px solid rgba(200, 137, 230, 0.35);
+  transition: all 0.3s ease;
+}
+
+.what-i-do-item span {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.what-i-do-item svg {
+  color: var(--imp-text-color);
+}
+
+.what-i-do-item:hover {
+  border-color: rgba(200, 137, 230, 0.7);
+  transform: translateY(-2px);
 }
 
 .tech-icons {
@@ -620,7 +801,8 @@ button:focus {
 }
 
 .quote-card-view {
-  border: none !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.25) !important;
+  border-radius: 8px !important;
   color: white !important;
   background-color: transparent !important;
 }
@@ -652,6 +834,14 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+.resume-iframe {
+  width: 100%;
+  max-width: 850px;
+  border: 1px solid rgba(200, 137, 230, 0.3);
+  border-radius: 8px;
+  background: #1a1a2e;
 }
 
 .resume-left {

@@ -11,7 +11,7 @@ import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineFile,
+  AiOutlineFileText,
   AiOutlineUser,
 } from "react-icons/ai";
 
@@ -73,10 +73,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/internships"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFile style={{ marginBottom: "2px" }} /> Internships
+                <AiOutlineFileText style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 

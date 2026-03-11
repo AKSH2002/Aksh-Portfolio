@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Aksh.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import finance from "../../Assets/../Assets/Certificates/Coursera/Finance_for_Startup.pdf"

@@ -8,27 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Aksh Darji </span>
-            from <span className="purple"> Gujrat, India.</span>
-            <br />
-            <br />🚀I am currently pursuing Degree Engineering form Gujarat Technological University. Highly motivated and detail-oriented computer science professional with a passion for developing innovative solutions.
+            Hi, I'm <span className="purple">Aksh Darji</span> from <span className="purple">Gujarat, India.</span>
             <br />
             <br />
-            💻 Committed to staying up-to-date with industry trends and advancements in technology. Seeking a challenging and dynamic role in a collaborative work environment.
+            🚀 I'm a <strong>DevOps Engineer</strong>, building and maintaining cloud infrastructure and deployment automation on AWS. I work with IaC (Terraform/OpenTofu), Ansible, Kubernetes-based tenant deployments, monitoring, and security. I care about automation that reduces toil and systems that scale.
             <br />
             <br />
-            🎉 Let's build something amazing (and have a blast while we're at it).
-            If you are looking for a driven and motivated software engineer with a passion for DevOps, cybersecurity, computer networks, and more, I would love to connect and explore potential opportunities. Let's build something amazing together!
+            💻 I graduated with a BE in Information Technology from Gujarat Technological University. My path went from development (Spring Boot, APIs, CI/CD) to full-time DevOps and platform engineering. I stay up to date with industry trends and love tackling infrastructure and automation challenges.
             <br />
             <br />
-            Apart from coding skills, some other activities that I love to do!
+            🎉 If you're looking for a DevOps engineer who bridges infra, automation, and security—let's connect and build something reliable together.
+            <br />
+            <br />
+            Apart from coding and infra, things I love to do:
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -36,7 +35,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "IT engineers don't just solve problems, they create possibilities."{" "}
+            "Turning chaos into order, one pipeline at a time."{" "}
           </p>
           <footer className="blockquote-footer">Aksh</footer>
         </blockquote>
