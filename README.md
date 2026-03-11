@@ -62,6 +62,19 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
 
+## Deploy to GitHub Pages
+
+To update the live site at [https://aksh2002.github.io/Aksh-Portfolio/](https://aksh2002.github.io/Aksh-Portfolio/):
+
+**Option A – GitHub Actions (recommended)**  
+Pushing to `master` runs the workflow in `.github/workflows/pages.yml`: it builds the app and deploys to GitHub Pages. The workflow uses `submodules: false` on checkout to avoid errors from the `gh-pages` npm cache.
+
+**Option B – Deploy from your machine**  
+1. Run `npm run deploy` (builds and pushes the `build` folder to the `gh-pages` branch).  
+2. Make sure you're logged in to GitHub (SSH or HTTPS).
+
+If you see a **"No url found for submodule path 'node_modules/.cache/gh-pages/...'"** error in Actions, ensure the workflow uses `submodules: false` in the checkout step. The included `pages.yml` already does this.
+
 ## Usage Instructions
 
 Open the project folder and Navigate to `/src/components/`. <br/>
